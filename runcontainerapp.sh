@@ -1,7 +1,7 @@
 # for NetCore22 app build on Linux/OS X
 
 # cleanup
-rm -R $(pwd)/NetCore22/output
+rm -Rf $(pwd)/NetCore22/output
 
 # publish the app to the output directory
 dotnet publish -o $(pwd)/NetCore22/output
